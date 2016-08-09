@@ -28,6 +28,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.1.1'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile 'microutils:kotlin.logging:1.2.1'
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-android
+    compile group: 'org.slf4j', name: 'slf4j-android', version: '1.7.21'
 }
 repositories {
     mavenCentral()
